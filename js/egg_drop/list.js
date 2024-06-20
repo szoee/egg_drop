@@ -367,12 +367,14 @@ let count_0 = ITEM_LIST[1].length;
 for(let i=0; i<count_0; i++) {
     $('.item_box').append(`
         <div class="box swiper-slide">
-            <div class="box${i} cover_box">
+            <a href="egg_drop_3.html?cateNo=1&itemNo=${ITEM_LIST[1][i].item_no}">
+                <div class="box${i} cover_box">
                 <div class="name">${ITEM_LIST[1][i].name}</div>
                 <img class="item_name" src="./img/egg_drop/img_slide/name/${ITEM_LIST[1][i].name_img}" alt="">
                 <img class="item_mark" src="./img/egg_drop/img_slide/mark/${ITEM_LIST[1][i].mark}" alt="">
                 <img class="item_img" src="./img/egg_drop/img_slide/img/${ITEM_LIST[1][i].img}" alt="">
-            </div>
+                </div>
+            </a>
         </div>
     `)
 
