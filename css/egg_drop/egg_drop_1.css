@@ -105,6 +105,7 @@ li {
     transform: translateX(-50%);
     bottom: 15px;
     background: url(../../img/egg_drop/main_banner/icon_bottom.svg) no-repeat center 32px;
+    cursor: pointer;
 }
 /* ///////////////////////   SEC1    //////////////// */
 .sec1 {
@@ -499,6 +500,7 @@ li {
     font-size: 28px;
     padding-top: 18px;
     text-align: center;
+    cursor: pointer;
 }
 
 

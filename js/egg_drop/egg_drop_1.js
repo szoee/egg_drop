@@ -40,6 +40,7 @@ function btn_slide(o_pos, c_bang, c_pos) {
     }, timer, 'linear')
     bang = c_bang
 }
+
 // 자동
 let auto_interval;
 function auto_slide() {
@@ -60,7 +61,7 @@ auto_slide();
 $('.main_banner').hover(function () {
     clearInterval(auto_interval)
 }, function () {
-    auto_slide()
+    auto_slide();
 })
 
 // circle 클릭
